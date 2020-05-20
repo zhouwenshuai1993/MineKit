@@ -18,6 +18,17 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor redColor];
+    
+    UIButton *botton =[UIButton buttonWithType:(UIButtonTypeSystem)];
+    [botton setTitle:@"返回上一页" forState:(UIControlStateNormal)];
+    botton.frame = CGRectMake(100, 100, 200, 100);
+    [self.view addSubview: botton];
+    [botton addTarget:self action:@selector(backAC) forControlEvents:(UIControlEventTouchUpInside)];
+    
+    
+}
+-(void)backAC{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 /*
