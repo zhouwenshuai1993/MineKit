@@ -1,0 +1,6 @@
+framework module Pods_MineKit_Example {
+  umbrella header "Pods-MineKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

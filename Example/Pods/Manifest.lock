@@ -1,0 +1,16 @@
+PODS:
+  - MineKit (0.1.0)
+
+DEPENDENCIES:
+  - MineKit (from `../`)
+
+EXTERNAL SOURCES:
+  MineKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MineKit: 9ff5e9ec36292caeda5aca149a9550d529bf6c54
+
+PODFILE CHECKSUM: 9e98828df2c0aaaf3771dc2b8f43440d48232c26
+
+COCOAPODS: 1.8.3

@@ -1,0 +1,6 @@
+framework module MineKit {
+  umbrella header "MineKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
